@@ -27,7 +27,7 @@ function Goals({}: Props) {
       <div className="flex flex-row absolute">
         <section className="flex relative">
           <p className="text-bold text-xl w-full relative top-[190%] pt-2 pb-4">
-            You&apos;re good!
+            You're good!
           </p>
           <p className="text-muted-foreground text-sm text-wrap relative top-[280%] w-[115%] right-[47%] px-2">
             Your sales performance score is better than 80% other users

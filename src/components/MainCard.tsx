@@ -108,7 +108,7 @@ export default function MainCard() {
           </GraphCardStructure>
         </section>
       </Card>
-      <div className="grid absolute right-[8%] w-[25%]">
+      <div className="grid absolute right-[8%] w-[25%] h-[850px]">
         <div className="grid grid-rows-3 gap-4">
           <CardStructure className="w-full h-[285px]">
             <Goals />

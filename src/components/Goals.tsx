@@ -8,7 +8,7 @@ type Props = {};
 function Goals({}: Props) {
   return (
     <>
-      <div className="flex justify-center absolute top-[1%] right-[28%] w-[50%] h-[17%]">
+      <div className="flex justify-center absolute top-0 right-[36%] w-[50%] h-[15%]">
         <SemicircleChart />
       </div>
       <div className="flex absolute justify-center">
@@ -19,12 +19,12 @@ function Goals({}: Props) {
           </p>
         </section>
       </div>
-      <div className="w-full absolute top-[15%]">
+      <div className="w-full absolute top-[12.5%]">
         <div className="border w-[75%] h-0 left-[5%] relative"></div>
       </div>
       <div className="flex flex-row absolute">
         <section className="flex relative">
-          <p className="text-bold text-xl w-full relative top-[190%] pt-2 pb-4">
+          <p className="text-bold text-xl w-full relative top-[200%] pt-2 pb-4">
             You're good!
           </p>
           <p className="text-muted-foreground text-sm text-wrap relative top-[280%] w-[115%] right-[47%] px-2">

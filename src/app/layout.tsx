@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} flex items-center justify-between `}>
-        <div className="min-w-[200px] min-h-screen lg:w-[200px]">
+        <div className="min-w-[200px] min-h-screen px-[10%]">
           <Sidebar />
         </div>
         <main className="grid w-full h-full">

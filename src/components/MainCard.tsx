@@ -58,8 +58,8 @@ export default function MainCard() {
         </CardHeader>
         <section>
           <GraphCardStructure>
-            <div className="w-full h-[15%] gap-0">
-              <p className="my-2 font-semibold">Comparison</p>
+            <div className="w-full h-[15%] gap-2">
+              <p className="my-2 font-semibold gap-2">Comparison</p>
               <BarChart />
             </div>
             <section className="flex gap-10 justify-center">
@@ -108,15 +108,15 @@ export default function MainCard() {
           </GraphCardStructure>
         </section>
       </Card>
-      <div className="grid absolute right-[8%] w-[25%] h-[850px]">
-        <div className="grid grid-rows-3 gap-4">
-          <CardStructure className="w-full h-[285px]">
+      <div className="grid absolute right-[12%] w-[25%] h-[1000px]">
+        <div className="grid grid-rows-3 gap-[2%]">
+          <CardStructure className="w-[400px] h-[285px]">
             <Goals />
           </CardStructure>
-          <CardStructure className="w-full h-[285px]">
+          <CardStructure className="w-[400px] h-[285px]">
             <CustomerDevice />
           </CardStructure>
-          <CardStructure className="w-full h-[250px]">
+          <CardStructure className="w-[400px] h-[250px]">
             <Feedback />
           </CardStructure>
         </div>

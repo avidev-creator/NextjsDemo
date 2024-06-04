@@ -1,5 +1,5 @@
 import React from "react";
-import LineChartStructure from "./LineChart";
+import LineChartStructure from "./charts/LineChart";
 
 type Props = {};
 

@@ -13,7 +13,7 @@ import SmallCard, {
   GraphCardStructure,
 } from "./SmallCard";
 
-import BarChart from "./BarChart";
+import BarChart from "./charts/BarChart";
 import Goals from "./Goals";
 import CustomerDevice from "./CustomerDevice";
 import Feedback from "./Feedback";

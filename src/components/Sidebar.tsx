@@ -23,6 +23,7 @@ import {
   CommandSeparator,
   CommandShortcut,
 } from "@/components/ui/command";
+import Image from "next/image";
 
 export default function Sidebar() {
   const menuList = [

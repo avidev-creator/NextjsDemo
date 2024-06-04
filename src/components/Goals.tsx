@@ -1,22 +1,20 @@
+"use client";
+
 import React from "react";
-import SemiCircleProgressBar from "react-progressbar-semicircle";
+import SemicircleChart from "./charts/SemicircleChart";
 
 type Props = {};
 
 function Goals({}: Props) {
   return (
     <>
-      <div className="flex justify-center absolute top-[1%] right-[25%]">
-        <SemiCircleProgressBar
-          percentage={78}
-          stroke={"#3572EF"}
-          strokeWidth={12}
-        />
+      <div className="flex justify-center absolute top-[1%] right-[28%] w-[50%] h-[17%]">
+        <SemicircleChart />
       </div>
       <div className="flex absolute justify-center">
         <section className="flex  flex-col">
-          <h2 className="text-2xl flex relative top-[50%] left-[170%]">78</h2>
-          <p className="text-muted-foreground text-sm flex relative top-[46%] left-[145%]">
+          <h2 className="text-2xl flex relative top-[100%] left-[170%]">78</h2>
+          <p className="text-muted-foreground text-sm flex relative top-[90%] left-[145%]">
             of 100 points
           </p>
         </section>
